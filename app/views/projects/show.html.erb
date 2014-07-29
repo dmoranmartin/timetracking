@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specific proyect</title>
+</head>
+	<style type="text/css">
+		body { background-color: grey }
+	</style>
+<body>
+	<h1 style="text-align:center; font-family:Arial;">TimeTracking</h1>
+	
+	<p style="text-align:center; font-family:Arial;">
+	<%=@project.name%>
+	<% if @project.description != nil %>
+	  -  <%= @project.description %></p>
+	<%end%>
+	
+
+</body>
+</html>
