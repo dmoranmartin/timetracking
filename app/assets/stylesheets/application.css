@@ -13,4 +13,5 @@
  *= require_tree .
  *= require_self
  */
-*= require pageforall
+
+body {font-family: 'Dosis', sans-serif; text-align: center;}

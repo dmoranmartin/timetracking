@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TimeTracking</title>
+</head>
+<body>
+	<h1 style="text-align:center; font-family:Arial;">TimeTracking</h1>
+	<% @projects.each do |project| %>
+		<p style="text-align:center; font-family:Arial;">
+		<%=project.name%>
+		<% if project.description != nil %>
+			  -  <%= project.description %></p>
+		<%end%>
+	<%end%>
+</body>
+</html>
